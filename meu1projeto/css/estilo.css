@@ -1,5 +1,39 @@
-@charset "utf-8";
+@charset "UTF-8";
 
-body {
+
+        
+
+
+header#titulo {
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 45%;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul  {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+   bottom: 100px;
+   left: 45%;
+   text-align: center;
+}
+
+nav#menu li {
+    padding: 5px;
+    transition: 1s;
     
 }
+
+nav#menu li:hover {
+    background-color:aliceblue;
+    color: rgb(113, 62, 163);
+    border-radius: 10px;
+}
+ 
+  
