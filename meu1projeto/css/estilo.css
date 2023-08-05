@@ -1,14 +1,20 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'street';
+    src: url(../fontes/fonte.ttf);
+}
 
         
 
 
 header#titulo {
+    font-family: 'street';
     color: red;
     position: absolute;
     top: 0px;
-    left: 45%;
+    left: 21%;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .8);
 }
 
 nav#menu {
@@ -27,7 +33,7 @@ nav#menu ul  {
 nav#menu li {
     padding: 5px;
     transition: .4s;
-    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .2);
 }
 
 nav#menu li:hover {
