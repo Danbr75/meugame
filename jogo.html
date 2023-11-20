@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Elementos</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+    <div class="estrutura">
+        <h1>ElementoFight</h1>
+        <div id="player-info">
+            <div id="player">
+                <h2>Jogador</h2>
+                <div id="player-life-bar">
+                    <div id="player-life"></div>
+                </div>
+                <p id="player-life-text">Vida: 100</p>
+            </div>
+            <div id="computer">
+                <h2>Computador</h2>
+                <div id="computer-life-bar">
+                    <div id="computer-life"></div>
+                </div>
+                <p id="computer-life-text">Vida: 100</p>
+            </div>
+        </div>
+        <div id="options">
+            <button class="water" onclick="fight('água')">Água</button>
+            <button class="fire" onclick="fight('fogo')">Fogo</button>
+            <button class="ice" onclick="fight('gelo')">Gelo</button>
+            <button class="plant" onclick="fight('planta')">Planta</button>
+            <button class="darkness" onclick="fight('escuridão')">Escuridão</button>
+            <button class="light" onclick="fight('luz')">Luz</button>
+        </div>
+        <div id="result">
+            <p>Escolha um elemento para começar!</p>
+        </div>
+    </div>
+
+    <script src="jogo.js"></script>
+</body>
+</html>
